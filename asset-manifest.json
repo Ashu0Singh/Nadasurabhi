@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Nadasurabhi/static/css/main.35ae3b9e.css",
+    "main.css": "/Nadasurabhi/static/css/main.2c90ce1d.css",
     "main.js": "/Nadasurabhi/static/js/main.33ee21c2.js",
     "static/media/logo.png": "/Nadasurabhi/static/media/logo.30e7dc057649a59e5a4f.png",
     "index.html": "/Nadasurabhi/index.html",
-    "main.35ae3b9e.css.map": "/Nadasurabhi/static/css/main.35ae3b9e.css.map",
+    "main.2c90ce1d.css.map": "/Nadasurabhi/static/css/main.2c90ce1d.css.map",
     "main.33ee21c2.js.map": "/Nadasurabhi/static/js/main.33ee21c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.35ae3b9e.css",
+    "static/css/main.2c90ce1d.css",
     "static/js/main.33ee21c2.js"
   ]
 }
