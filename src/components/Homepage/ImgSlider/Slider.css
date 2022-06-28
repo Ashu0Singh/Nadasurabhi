@@ -7,12 +7,6 @@
     justify-content: center;
 }
 
-@media screen and (max-width:600px) {
-    .container{
-        position: relative;
-        width: 100%;
-    }
-}
 .container--button{
     border: none;
     border-radius: 50%;
@@ -49,7 +43,7 @@
 @media screen and (max-width : 600px ) {
     .mediaPlayers{
         margin-top: 10px auto;
-        width: 90%;
+        width: 95%;
         max-width: 500px;
         margin: 12px 7px;
     }
