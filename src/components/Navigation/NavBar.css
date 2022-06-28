@@ -3,6 +3,7 @@ body{
     margin-top: 20px;
 }
 .navBar , .navBar-pageRef, .navBar-pageRef-title{
+    z-index: 2;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -49,6 +50,12 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+
+@supports(backdrop-filter: blur(20px)){
+    .navBar-pageRef{
+        backdrop-filter: blur(20px);
+    }
+}
 @media screen and (max-width: 900px){
     .navBar-pageRef{
         flex-direction: column;
@@ -87,6 +94,7 @@ body{
         width:100%;
         text-align: center;
         font-size: 1.2rem;
+        color: aliceblue;
     }
     
 }
@@ -101,7 +109,7 @@ body{
     color: #FFFFFF;
     transition-duration: 0.4s;
 
-    background: #675CE8;;
+    background: #675CE8;
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.13);
     border-radius: 35px;
     border: none;
@@ -119,7 +127,7 @@ body{
 }
 
 .navBar-toggle{
-    z-index: 0;
+    z-index: 10;
     float: right;
     transition-duration: 0.4s;
     visibility: hidden;
@@ -128,7 +136,7 @@ body{
 }
 @media screen and (max-width: 900px){
     .navBar-toggle{
-        z-index: 0;
+        z-index: 2;
         transition-duration: 0.4s;
         visibility: visible;
     }
