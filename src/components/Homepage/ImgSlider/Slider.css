@@ -4,7 +4,15 @@
     flex-direction: row;
     align-items: center;
     margin: 40px auto;
+    background-color: steelblue;
     justify-content: center;
+}
+
+@media screen and (max-width:600px) {
+    .container{
+        position: relative;
+        width: 100%;
+    }
 }
 .container--button{
     border: none;
@@ -22,8 +30,8 @@
     overflow: clip;
 }
 @media screen and (max-width : 600px ) {
-    .vidSlider{
-        width: 95%;
+    .container--vidSlider{
+        width: 100%;
     }
 }
 
@@ -42,6 +50,9 @@
 @media screen and (max-width : 600px ) {
     .mediaPlayers{
         margin-top: 10px auto;
+        width: 95%;
+        max-width: 500px;
+        margin: 12px 7px;
     }
 }
 
