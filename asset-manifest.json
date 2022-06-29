@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/Nadasurabhi/static/css/main.eed04788.css",
-    "main.js": "/Nadasurabhi/static/js/main.de01b4d2.js",
+    "main.css": "/Nadasurabhi/static/css/main.df8f663b.css",
+    "main.js": "/Nadasurabhi/static/js/main.e1cfacf1.js",
+    "static/media/SitarOpti.png": "/Nadasurabhi/static/media/SitarOpti.873718beb8d5dbae5ebc.png",
     "static/media/logo.png": "/Nadasurabhi/static/media/logo.30e7dc057649a59e5a4f.png",
     "static/media/slick.svg": "/Nadasurabhi/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/Nadasurabhi/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/Nadasurabhi/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Nadasurabhi/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Nadasurabhi/index.html",
-    "main.eed04788.css.map": "/Nadasurabhi/static/css/main.eed04788.css.map",
-    "main.de01b4d2.js.map": "/Nadasurabhi/static/js/main.de01b4d2.js.map"
+    "main.df8f663b.css.map": "/Nadasurabhi/static/css/main.df8f663b.css.map",
+    "main.e1cfacf1.js.map": "/Nadasurabhi/static/js/main.e1cfacf1.js.map"
   },
   "entrypoints": [
-    "static/css/main.eed04788.css",
-    "static/js/main.de01b4d2.js"
+    "static/css/main.df8f663b.css",
+    "static/js/main.e1cfacf1.js"
   ]
 }
