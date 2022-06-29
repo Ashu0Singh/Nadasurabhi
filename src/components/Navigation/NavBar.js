@@ -35,7 +35,7 @@ export default function NavBar(){
                 <button className='navBar-buttons-Login clickable' type='button'>Login</button>
             </div>
             <button className="navBar-toggle" onClick={reAppear}>
-                <img width="20px" src={btnImg} alt="Menu"></img>
+                <img width="25px" src={btnImg} alt="Menu"></img>
             </button>
         </div>
     );

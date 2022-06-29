@@ -6,29 +6,32 @@ export default function RenderSlider({props}){
     var sliderRef = useRef(null);
     
     const settings = {
-        adaptiveHeight: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        focusOnSelect: true,
-        initialSlide: 0,
-        responsive: [
-            {
-              breakpoint: 1024,
-              settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
-              }
-            },
-            {
-              breakpoint: 600,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-              }
+      autoplay: true,
+      autoplaySpeed: 2000,
+      pauseOnHover: true,
+      adaptiveHeight: true,
+      infinite: true,
+      speed: 1000,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      focusOnSelect: true,
+      initialSlide: 0,
+      responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2
             }
-          ]
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
     };
     
     const renderBox = props.map(items => {
