@@ -49,11 +49,14 @@ export default function RenderSlider({props}){
     console.log(sliderRef.current);
     return(
         <div className="container">
-            <button className="container--button" onClick={() => sliderRef.current.slickPrev()}>{left}</button>
+            
             <Slider ref={sliderRef} {...settings} className="container--vidSlider">
                 {renderBox}
             </Slider>
+            <div className="button--Flex">
+            <button className="container--button" onClick={() => sliderRef.current.slickPrev()}>{left}</button>
             <button className="container--button" onClick={() => sliderRef.current.slickNext()}>{right}</button>
+            </div>
         </div>
             
             

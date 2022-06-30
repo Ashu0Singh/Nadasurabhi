@@ -18,10 +18,10 @@ export default function HeroSection(){
                     Aradhana, and music competitions for children.
                 </p>
             </div>
-            {window.innerWidth>900 && <div className="heroSec-rightImg">
+            <div className="heroSec-rightImg">
                 <div className="heroSec-rightImg--cyanBack"></div>
-                <img src={Sitar} className="heroSec-rightImg--sitar" alt="Sitar"></img>
-            </div>}
+                {window.innerWidth>900 && <img src={Sitar} className="heroSec-rightImg--sitar" alt="Sitar"></img>}
+            </div>
         </div>
     )
 }

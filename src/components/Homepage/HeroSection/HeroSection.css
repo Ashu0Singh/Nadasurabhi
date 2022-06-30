@@ -69,11 +69,13 @@
     background-color: #675CE8;
     color: white;
     transition-duration: 0.6s;
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.3);
 }
 .heroSec-leftText--button:hover{
     transform: scale(1.1);
     background-color: #5191F2;
 }
+
 @media screen and (max-width: 900px){
     .heroSec-leftText--button{
         width: fit-content;
@@ -85,7 +87,10 @@
     }
     .heroSec-leftText--button:hover{
         transform: scale(1);
-        background-color: #5191F2;
+    }
+    .heroSec-leftText--button:active {
+        transform: scale(0.9);
+        box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.25);
     }
 }
 /*---------------------------------------------------------------*/
@@ -107,8 +112,8 @@
         font-weight: 600;
         margin-top: 5vh;
         background-color: #A0A3BD70;
-        padding: 10px;
-        border-radius: 3%;
+        padding: 15px;
+        border-radius: 10px;
 
     }
     @supports(backdrop-filter: blur(20px)){
@@ -147,3 +152,4 @@
         height: 10px;
     }
 }
+
