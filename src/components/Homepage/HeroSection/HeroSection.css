@@ -13,8 +13,7 @@
         width: 100%;
         flex-direction: column;
         margin-top: 4vh;
-        overflow-x: hidden;
-        
+        overflow: hidden;
     }
 }
 /*---------------------------------------------------------------*/
@@ -26,12 +25,14 @@
     width: 50%;
     flex-direction: column;
     justify-content: space-between;
-    max-height: 450px;
+    max-height: 500px;
 }
 @media screen and (max-width: 900px){
     .heroSec-leftText{
         width: 92%;
         padding: 0 15px;
+        height: max-content;
+        
     }
 }
 /*---------------------------------------------------------------*/
@@ -147,9 +148,3 @@
     border-radius: 66px;
     transform: rotate(-48.26deg);
 }
-@media screen and (max-width: 900px){
-    .heroSec-rightImg{
-        height: 10px;
-    }
-}
-
