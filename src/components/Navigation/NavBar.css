@@ -132,8 +132,9 @@ body{
 }
 
 .navBar-toggle{
+    
     z-index: 10;
-    float: right;
+    float: right;position: fixed;
     transition-duration: 0.4s;
     visibility: hidden;
     background-color: #ffffff00;
