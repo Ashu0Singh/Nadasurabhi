@@ -145,7 +145,7 @@ body{
         z-index: 2;
         transition-duration: 1s;
         visibility: visible;
-        margin-right: 2%;
+        margin-left: 80%;
     }
 }
 
